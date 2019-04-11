@@ -34,7 +34,7 @@ namespace lesson2
                 return false;
             }
 
-            int position = key.GetHashCode();
+            int position = key.Value;
 
             if (_array.Length > position && _array[position] != null)
             {
